@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(218, 204, 180);
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+h2{
+  font-size: 1.8em;
+}
+
+div{
+  margin:0;
+  padding:0;
+}
+
+/* Global classes start */
+.display-none{
+  display: none !important;
+}
+/* Global classes end */
+
+.Typewriter{
+  font-size: 1.5em;
+}
+
+.App{
+  background-color: rgb(252, 249, 244);
+  display: grid;
+  flex: 1 auto;
+  margin-bottom: 34.5px;
+  box-shadow: rgb(0 0 0 / 50%) 0px 2px 7px 0px;
+  color: rgb(20, 69, 61);
+  width: 100%
+}
+
+.App-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  align-items: center;
+}
+
+  .App-header .menu-div{
+    position: relative;
+  }
+
+  .App-header .menu-div .hamburger-react{
+    z-index: 2000;
+  }
+
+  .App-header .avalibility-div .avaliable-icon{
+    height: 10px;
+    width: 10px;
+    border-radius: 25px;
+    background-color: rgb(0, 148, 44);
+    display: inline-block;
+  }
+
+  .App-header .avalibility-div p{
+    display: inline-block;
+    margin: 0px 10px;
+  }
+
+  .App-header .email-icon{
+    stroke: 1;
+    stroke: rgb(20, 69, 61);
+    height: 40px;
+    width: 40px;
+  }
+
+.Body{
+  height: 80vh;
+  display: flex;
+  overflow: scroll;
+}
+
+.Content{
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+  .Content h1{
+    margin: 10px auto;
+  }
+
+  .Content .tabs{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      max-width: 100vw;
+      gap: 30px;
+      justify-content: center;
+      margin-bottom: 30px;
+  }
+
+    .Content .tabs div{
+      text-align: center;
+      background-color: rgb(255, 255, 255);
+      padding: 0px 15px;
+      color: rgb(20, 69, 61);
+      border-radius: 20px;
+      display: flex;
+      min-height: 60px;
+      align-items: center;
+      border: 1px solid rgb(20, 69, 61);
+    } 
+
+      .Content .tabs div:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s ease;
+      }
+
+    .Content .tabs .active{
+      background-color: rgb(20, 69, 61); 
+      color: rgb(255, 255, 255);
+      border: 1px solid rgb(255, 255, 255);
+    }
+
+  .Content .grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+
+    .Content .grid > div{
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      text-align: center;
+      gap: 10px;
+    }
+
+  .Content img {
+    background-color: #ffff;
+    border-radius: 30px;
+  }
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+
+  .Body {
+    height: 85vh;
+    padding: 0px 15px;
+  }
+
+  .App-header .email-icon{
+    height: 30px;
+    width: 30px;
+  }
+
+  .Content .tabs{
+    flex-direction: column;
+    gap: 12px;
+  }
+
+    .Content .tabs div{
+      min-width: 100%;
+      text-align: center;
+      justify-content: center;
+      min-height: 40px;
+    }
+
+      .Content .tabs div:hover{
+        transform: none;
+        transition: transform 0.5s ease;
+      }
+
+        .Content .tabs div h3{
+          font-size: 12px;
+          margin: 5px 0;
+        }
+
+  .Content .grid{
+    gap: 30px;
+  }
+
+    .Content .grid > div{
+      width: 150px;
+      gap: 15px;
+    }
+
+  .Content .grid > div img{
+    width: 150px;
+    height: 150px;
+  }
+
+}

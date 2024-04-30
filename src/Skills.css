@@ -1,0 +1,11 @@
+
+    .Content-skills h1{
+        margin: 10px auto;
+    }
+
+    .Content-skills .language, .Content-skills .database, .Content-skills .service, .Content-skills .system{
+        overflow: auto;
+    }
+
+
+

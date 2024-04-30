@@ -1,0 +1,60 @@
+.Menu-div .Menu{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(202, 188, 164);
+  height: 100vh;
+  z-index: 1000;
+  color: white;
+  opacity: 0.95;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+  .Menu-div .Menu p {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+
+  .Menu-div .Menu a {
+    color: #ffff;
+    text-decoration: none;
+  }
+
+  .Menu-div .Menu a:hover {
+    color: rgb(20, 69, 61);
+  }
+
+.menu-enter {
+  max-height: 0;            
+}
+.menu-enter-active {
+  max-height: 100vh;           
+  transition: max-height 0.5s ;
+}
+
+.menu-exit {
+  max-height: 100vh; 
+}
+
+.menu-exit-active {
+  max-height: 0;   
+  overflow: hidden;
+  transition: max-height 0.5s ;
+}
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+
+  /* .Menu-div .Menu {
+    padding-top: 40px;
+  } */
+
+}
+
