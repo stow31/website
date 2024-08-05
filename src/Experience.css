@@ -31,6 +31,7 @@
 .freelance .experience-grid {
     margin: auto 100px auto 60px;
     grid-template-columns: 0.8fr 1fr;
+    align-items: normal;
 
     .client-logos {
         display: grid;
