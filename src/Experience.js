@@ -31,6 +31,9 @@ function Experience() {
           <div className={`work-tab ${experienceTab === 'work' && 'active'}`}>
             <h3>Work</h3>
           </div>
+          <div className={`freelance-tab ${experienceTab === 'freelance' && 'active'}`}>
+            <h3>Freelance</h3>
+          </div>
         </div>
 
         {
@@ -70,13 +73,12 @@ function Experience() {
                     <div>
                       <ul>
                         <li>Participate in the initial set-up and implementation of a new pattern library including setting up design patterns with reusable design tokens to use across all components to keep consistent design and scalable component builds.</li>
-                        <li>Adapt and build approximately 30 website components into the new pattern library using maintainable and high-quality code to complete website re-platform of the entire Stockland business unit.</li>
+                        <li>Adapt and build over 50 website components into the new pattern library using maintainable and high-quality code to complete website re-platform of the entire Stockland business unit.</li>
                         <li>Align all new components with WCAG 2.0 AA accessibility guidelines, internal SEO standards and cross-platform compatibility while following a consistent and scalable design pattern.</li>
                         <li>Work closely with a multi-functional team of designers, business analysts and website product managers to build components following business and design requirements using Figma and Azure DevOps.</li>
                         <li>Work closely with backend developers to integrate all components from the pattern library into the CMS platform.</li>
                         <li>Onboard and share knowledge with new team members while promoting and using best practices.</li>
                         <li>Worked with an Agile methodology with daily stand-ups, keeping track of user stories and bugs in Azure Devops, and participating in fortnightly sprint planning.</li>
-
                       </ul>
                     </div>
                   </div>
@@ -88,7 +90,7 @@ function Experience() {
                     </a>
                   </div>
                   <div>
-                    <h3>JUNIOR FULL STACK DEVELOPER</h3>
+                    <h3>FULL STACK DEVELOPER</h3>
                     <div>Stockland</div>
                     <div>2021 - 2022</div>
                     <div>
@@ -152,7 +154,79 @@ function Experience() {
                   </div>
                 </div>
               </div>
-              : <></>
+            : experienceTab === "freelance" ? 
+              <div className="experience freelance">
+                <div className='experience-grid'>
+                  <div className='client-logos'>
+                    <a href="https://www.haddaddrilling.com.au" target="_blank" rel="noreferrer">
+                      <img src="/image/work/rosedale-farm.png" alt="Haddad Drilling Logo" />
+                    </a>
+                    <a href="https://www.rosedalefarm.net.au" target="_blank" rel="noreferrer">
+                      <img src="/image/work/rosedale-farm.png" alt="Rosedale Farm Logo" />
+                    </a>
+                    <a href="https://www.stevecordony.com" target="_blank" rel="noreferrer">
+                      <img src="/image/work/steve-cordony.png" alt="Steve Cordony Logo" />
+                    </a>
+                    <a href="https://www.ingeniumpeople.com.au/" target="_blank" rel="noreferrer">
+                      <img src="/image/work/ingenium-people.png" alt="Ingenium People Logo" />
+                    </a>
+                    <a href="https://lovelisacelebrant.com/" target="_blank" rel="noreferrer">
+                      <img src="/image/work/lovelisa.png" alt="Love Lisa Celebrant Logo" />
+                    </a>
+                  </div>
+                  <div>
+                    <h3>WEB DEVELOPER AND TECHNICAL CONSULTANT</h3>
+                    <div className='clients'>
+                      <div className='client'>
+                        <div className='name'>Haddad Drilling</div>
+                        <div>React, Tailwind, Git, CPanel, Microsoft, AWS</div>
+                        <a href="https://www.haddaddrilling.com.au/">https://www.haddaddrilling.com.au</a>
+                        <div>2023 - current</div>
+                      </div>
+                      <div className='client'>
+                      < div className='name'>Steve Cordony</div>
+                        <div>Squarespace, HTML, CSS</div>
+                        <a href="https://www.stevecordony.com">https://www.stevecordony.com</a>
+                        <div>2021 - current</div>
+                      </div>
+                      <div className='client'>
+                        <div className='name'>Rosedale Farm</div>
+                        <div>Squarespace, HTML, CSS</div>
+                        <a href="https://www.rosedalefarm.net.au">https://www.rosedalefarm.net.au</a>
+                        <div>2022 - current</div>
+                      </div>
+                      <div className='client'>
+                        <div className='name'>Ingenium People</div>
+                        <div>Wix, HTML, CSS</div>
+                        <a href="https://www.ingeniumpeople.com.au/">https://www.ingeniumpeople.com.au</a>
+                        <div>2022 - current</div>
+                      </div>
+                      <div className='client'>
+                        <div className='name'>Love Lisa Celebrant</div>
+                        <div>Wordpress, HTML, CSS</div>
+                        <a href="https://lovelisacelebrant.com">https://lovelisacelebrant.com</a>
+                        <div>2019</div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <ul>
+                        <li>Provided technical consultation and support, analysing business requirements and translating them into technical specifications, resulting in tailored web solutions that meet and exceed client expectations.</li>
+                        <li>Optimized website performance and SEO by implementing best practices in code efficiency, site architecture, and content management, leading to improved page load times and higher search engine rankings.</li>
+                        <li>Led the integration of third-party APIs and services into websites, including payment gateways, social media platforms, and booking system, enhancing the functionality and interactivity of offerings.</li>
+                        <li>Built and customised a website using platforms such as Sqarespace and Wix, leveraging the platform's theme and implementing custom CSS to enhance the site's design and functionality, ensuring a unique and visually appealing user experience</li>
+                        <li>Configured and managed business email systems using platforms like Google Workspace and Microsoft 365, ensuring secure and reliable communication channels for the organization.</li>
+                        <li>Registered and managed domain names through various domain registrars, implementing DNS settings and SSL certificates to ensure secure and professional online presence.</li>
+                        <li>Perform web development including developing a custom website using React and TailwindCSS, implementing responsive design principles to ensure optimal performance and user experience across devices.</li>
+                        <li>Deployed the website to cPanel, managing server configuration, domain setup, and ensuring a smooth deployment process for seamless site access.</li>
+                        <li>Integrated AWS Amplify for backend functionality, including authentication, data storage, and API management, to provide a robust and scalable backend infrastructure.</li>
+                        <li>Optimized website performance and security by implementing best practices in coding, configuring HTTPS, and utilizing AWS services to enhance reliability and speed.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          : <></>
         }
       </div>
     </div>
@@ -161,3 +235,4 @@ function Experience() {
 }
 
 export default Experience;
+
