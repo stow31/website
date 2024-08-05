@@ -159,19 +159,19 @@ function Experience() {
                 <div className='experience-grid'>
                   <div className='client-logos'>
                     <a href="https://www.haddaddrilling.com.au" target="_blank" rel="noreferrer">
-                      <img src="/image/work/rosedale-farm.png" alt="Haddad Drilling Logo" />
-                    </a>
-                    <a href="https://www.rosedalefarm.net.au" target="_blank" rel="noreferrer">
-                      <img src="/image/work/rosedale-farm.png" alt="Rosedale Farm Logo" />
+                      <img src="/image/work/haddad-drilling.png" alt="Haddad Drilling Logo" />
                     </a>
                     <a href="https://www.stevecordony.com" target="_blank" rel="noreferrer">
                       <img src="/image/work/steve-cordony.png" alt="Steve Cordony Logo" />
+                    </a>
+                    <a href="https://www.rosedalefarm.net.au" target="_blank" rel="noreferrer">
+                      <img src="/image/work/rosedale-farm.png" alt="Rosedale Farm Logo" />
                     </a>
                     <a href="https://www.ingeniumpeople.com.au/" target="_blank" rel="noreferrer">
                       <img src="/image/work/ingenium-people.png" alt="Ingenium People Logo" />
                     </a>
                     <a href="https://lovelisacelebrant.com/" target="_blank" rel="noreferrer">
-                      <img src="/image/work/lovelisa.png" alt="Love Lisa Celebrant Logo" />
+                      <img src="/image/work/love-lisa.png" alt="Love Lisa Celebrant Logo" />
                     </a>
                   </div>
                   <div>
@@ -180,31 +180,31 @@ function Experience() {
                       <div className='client'>
                         <div className='name'>Haddad Drilling</div>
                         <div>React, Tailwind, Git, CPanel, Microsoft, AWS</div>
-                        <a href="https://www.haddaddrilling.com.au/">https://www.haddaddrilling.com.au</a>
+                        <a href="https://www.haddaddrilling.com.au/" target="_blank" rel="noreferrer">https://www.haddaddrilling.com.au</a>
                         <div>2023 - current</div>
                       </div>
                       <div className='client'>
                       < div className='name'>Steve Cordony</div>
                         <div>Squarespace, HTML, CSS</div>
-                        <a href="https://www.stevecordony.com">https://www.stevecordony.com</a>
+                        <a href="https://www.stevecordony.com" target="_blank" rel="noreferrer">https://www.stevecordony.com</a>
                         <div>2021 - current</div>
                       </div>
                       <div className='client'>
                         <div className='name'>Rosedale Farm</div>
                         <div>Squarespace, HTML, CSS</div>
-                        <a href="https://www.rosedalefarm.net.au">https://www.rosedalefarm.net.au</a>
+                        <a href="https://www.rosedalefarm.net.au" target="_blank" rel="noreferrer">https://www.rosedalefarm.net.au</a>
                         <div>2022 - current</div>
                       </div>
                       <div className='client'>
                         <div className='name'>Ingenium People</div>
                         <div>Wix, HTML, CSS</div>
-                        <a href="https://www.ingeniumpeople.com.au/">https://www.ingeniumpeople.com.au</a>
+                        <a href="https://www.ingeniumpeople.com.au/" target="_blank" rel="noreferrer">https://www.ingeniumpeople.com.au</a>
                         <div>2022 - current</div>
                       </div>
                       <div className='client'>
                         <div className='name'>Love Lisa Celebrant</div>
                         <div>Wordpress, HTML, CSS</div>
-                        <a href="https://lovelisacelebrant.com">https://lovelisacelebrant.com</a>
+                        <a href="https://lovelisacelebrant.com" target="_blank" rel="noreferrer">https://lovelisacelebrant.com</a>
                         <div>2019</div>
                       </div>
                     </div>

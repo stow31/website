@@ -1,23 +1,19 @@
 .experience{
     margin: auto;
-}
 
-    .experience .experience-grid {
+    .experience-grid {
         display: grid;
         grid-template-columns: 0.5fr 1fr;
         align-items: center;
         margin: 25px 0;
-    }
 
-        .experience .experience-grid img {
+        img {
             display: block;
             margin: 20px auto;
-
+            width: 200px;
         }
-
-    .experience .experience-grid img {
-        width: 200px;
     }
+}
 
 .education {
     width: 50%;
@@ -25,12 +21,36 @@
 
 .work {
     width: 70%;
-}
 
-    .work .experience-grid {
+    .experience-grid {
         gap: 25px;
         grid-template-columns: 0.5fr 3fr;
     }
+}
+
+.freelance .experience-grid {
+    margin: auto 100px auto 60px;
+    grid-template-columns: 0.8fr 1fr;
+
+    .client-logos {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .clients {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    
+        .client {
+            margin: 12px 0px 12px 0px;
+    
+            .name {
+                font-weight: 700;
+            }
+        }
+    }
+
+}
 
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
@@ -43,7 +63,16 @@
             gap: 25px;
         } 
 
-    .work .experience-grid, .education .experience-grid  {
+    .work .experience-grid, .education .experience-grid, .freelance .experience-grid {
         display: block;
     }
+
+    .freelance .experience-grid {
+        margin: auto 20px;
+
+        .clients {
+            font-size: 12px;
+        }
+    } 
+
 }
