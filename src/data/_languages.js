@@ -15,19 +15,39 @@ export const LanguageList = [
         title: "CSS"
     },
     {
-        imageUrl: "/image/skills/ruby.png",
-        altTag: "Ruby image",
-        title: "Ruby"
+        imageUrl: "/image/skills/vue.png",
+        altTag: "Vue image",
+        title: "Vue"
     },
     {
-        imageUrl: "/image/skills/sinatra.png",
-        altTag: "Sinatra image",
-        title: "Sinatra"
+        imageUrl: "/image/skills/tailwind.png",
+        altTag: "Tailwind image",
+        title: "Tailwind"
+    },
+    {
+        imageUrl: "/image/skills/react.png",
+        altTag: "React image",
+        title: "React"
+    },
+    {
+        imageUrl: "/image/skills/typescript.png",
+        altTag: "TypeScript image",
+        title: "TypeScript"
     },
     {
         imageUrl: "/image/skills/nodejs.png",
         altTag: "NodeJS image",
         title: "NodeJS"
+    },
+    {
+        imageUrl: "/image/skills/storybook.png",
+        altTag: "Storybook image",
+        title: "Storybook"
+    },
+    {
+        imageUrl: "/image/skills/liquid.png",
+        altTag: "Liquid image",
+        title: "Liquid"
     },
     {
         imageUrl: "/image/skills/puppeteer.png",
@@ -38,11 +58,6 @@ export const LanguageList = [
         imageUrl: "/image/skills/expressjs.png",
         altTag: "Express image",
         title: "Express"
-    },
-    {
-        imageUrl: "/image/skills/react.png",
-        altTag: "React image",
-        title: "React"
     },
     {
         imageUrl: "/image/skills/net.png",
@@ -60,23 +75,13 @@ export const LanguageList = [
         title: "RESTful API"
     },
     {
-        imageUrl: "/image/skills/storybook.png",
-        altTag: "Storybook image",
-        title: "Storybook"
+        imageUrl: "/image/skills/ruby.png",
+        altTag: "Ruby image",
+        title: "Ruby"
     },
     {
-        imageUrl: "/image/skills/liquid.png",
-        altTag: "Liquid image",
-        title: "Liquid"
-    },
-    {
-        imageUrl: "/image/skills/vue.png",
-        altTag: "Vue image",
-        title: "Vue"
-    },
-    {
-        imageUrl: "/image/skills/tailwind.png",
-        altTag: "Tailwind image",
-        title: "Tailwind"
+        imageUrl: "/image/skills/sinatra.png",
+        altTag: "Sinatra image",
+        title: "Sinatra"
     },
 ]
