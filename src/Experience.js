@@ -21,7 +21,7 @@ function Experience() {
   }
 
   return (
-    <div class="Content Content-experience">
+    <div className="Content Content-experience">
       <h1>Experience</h1>
       <div className="Content Content-experience">
         <div className="tabs" onClick={(e) => handlesExperienceTab(e)}>
@@ -71,14 +71,17 @@ function Experience() {
                     <div>Stockland</div>
                     <div>2022 - current</div>
                     <div>
+                      <p>
+                      As a Front-End Developer at Stockland, I worked as part of a team to build the first front-end design strategy and develop and deliver high-quality, responsive and accessible components for the newly re-platformed Stockland website on OptimizleyCMS. I continue to work with this team to grow and develop the front-end approach and build components for the platform using Liquid, HTML, CSS, Tailwind, JavaScript, Vue, and TypeScript.</p>
+                      <p>My main responsibilities include:</p>
                       <ul>
-                        <li>Participate in the initial set-up and implementation of a new pattern library including setting up design patterns with reusable design tokens to use across all components to keep consistent design and scalable component builds.</li>
-                        <li>Adapt and build over 50 website components into the new pattern library using maintainable and high-quality code to complete website re-platform of the entire Stockland business unit.</li>
+                        <li>Participate in the initial set-up and implementation of a new pattern library using Storybook, setting up design patterns with reusable design tokens to use across all components to keep consistent design and scalable component builds.</li>
+                        <li>Adapt and build over 50 website components into the new pattern library using maintainable, high-quality code to complete the website re-platforming of the entire Stockland business unit.</li>
                         <li>Align all new components with WCAG 2.0 AA accessibility guidelines, internal SEO standards and cross-platform compatibility while following a consistent and scalable design pattern.</li>
-                        <li>Work closely with a multi-functional team of designers, business analysts and website product managers to build components following business and design requirements using Figma and Azure DevOps.</li>
-                        <li>Work closely with backend developers to integrate all components from the pattern library into the CMS platform.</li>
-                        <li>Onboard and share knowledge with new team members while promoting and using best practices.</li>
-                        <li>Worked with an Agile methodology with daily stand-ups, keeping track of user stories and bugs in Azure Devops, and participating in fortnightly sprint planning.</li>
+                        <li>Work closely with a multi-functional team of designers, business analysts, and website product managers to build components that follow business and design requirements using Figma and Azure DevOps.</li>
+                        <li>Work closely with backend developers to integrate all components from the pattern library into the CMS platform. Perform code reviews and mentor junior developers, guiding them on best practices, code quality, and technical problem-solving, fostering growth within the team.</li>
+                        <li>Maintain and update technical documentation for APIs, internal code standards, and deployment processes. This ensures future team members clearly understand the systems and facilitates smooth onboarding and knowledge transfer within the team.</li>
+                        <li>Work with an Agile methodology with daily stand-ups, keeping track of user stories and bugs in Azure DevOps, and participating in fortnightly sprint planning.</li>
                       </ul>
                     </div>
                   </div>
@@ -94,22 +97,16 @@ function Experience() {
                     <div>Stockland</div>
                     <div>2021 - 2022</div>
                     <div>
+                      <p>As a full-stack developer at Stockland, I delivered high-quality software solutions to build and enhance the Stockland website and internal applications, following the agile development methodology.</p>
+                      <p>My main responsibilities include:</p>
                       <ul>
-                        <li>
-                          Delivering high quality software solutions in the iterative development process of the Website and innovative applications
-                        </li>
-                        <li>
-                          Solve technical problems, identify root causes and quickly resolve issues
-                        </li>
-                        <li>
-                          Conduct testing and QA
-                        </li>
-                        <li>
-                          Participating in development and running of automation test cases
-                        </li>
-                        <li>
-                          Ensuring all documentation (e.g. requirements, design, testing, operations, interface, user guide, etc.) is developed & maintained
-                        </li>
+                        <li>Solved technical problems within our Sitecore CMS and internal React Applications by identifying the root cause and quickly resolving the issue using C#/ASP.NET, Visual Studio, Bootstrap, CSS, JavaScript and React.</li>
+                        <li>Developed new features within the Sitecore CMS and internal React Application.</li>
+                        <li>Designed and implemented scalable RESTful APIs, ensuring stateless communication between client and server and efficient use of HTTP methods.</li>
+                        <li>Conducted testing and quality assurance.</li>
+                        <li>Leverage AWS services, S3, Lambda, DynamoDB, API Gateway, Canary, CloudWatch and Cognito to design, deploy, and manage internal applications, enabling automated infrastructure management and seamless integration between frontend and backend systems.</li>
+                        <li>Liaised with stakeholders to ensure all business requirements were met and all designs aligned with brand requirements.</li>
+                        <li>Maintain and update technical documentation for APIs, internal code standards, and deployment processes. This ensures future team members clearly understand the systems and facilitates smooth onboarding and knowledge transfer within the team.</li>
                       </ul>
                     </div>
                   </div>
